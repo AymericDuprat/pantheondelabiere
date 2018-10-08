@@ -1,0 +1,100 @@
+body{
+  background-color: grey;
+  font-size: 25px;
+  font-family: Alegreya SC;
+  position: relative;
+  width: 100%;
+}
+h1{
+  color: white;
+  font-family: Alegreya SC;
+}
+h2{
+  color: white;
+  font-family: Alegreya SC;
+}
+p{
+  color: white;
+}
+#banner{
+  text-align: center;
+  background-image: url("image/alcohol-bar-beer.jpg");
+  background-size: cover;
+  padding: 100px;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+#auteur{
+text-align: right;
+color: red;
+padding-right: 175px;
+font-family: Roboto;
+}
+.styled{
+  background-color: #ffed00;
+  border-color: #ffed00;
+  font-family: Roboto;
+  color: #303431;
+  border-radius: 5px;
+  display: block;
+  margin : auto;
+}
+#conteneur{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px;
+
+}
+button{
+  color: #303134;
+  background-color: #ffed00;
+  border-color: #ffed00;
+  border-radius: 2px;
+  width: 300px;
+  font-family: Roboto;
+  outline: none;
+}
+#image{
+  border-color: yellow; 
+}
+#accroche{
+  text-align: justify-all;
+  font-size: 16px;
+  width: 300px;
+  font-family: Roboto;
+}
+footer{
+  background-color: black;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: auto;
+}
+#conteneur{
+  background-color: grey;
+  padding-top: 2px;
+  padding-bottom: 50px;
+}
+#cadre{
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: grey;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.card {
+  padding: 30px 0;
+}
